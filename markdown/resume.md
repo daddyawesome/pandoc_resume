@@ -1,42 +1,54 @@
-Johnny Coder
+Mark Russel Miranda
 ============
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+> Specialties: SQL, Python, PowerBI, Tableau\
+> Reports Analyst / Junior Data Scientist\
+> Love exploring machine learning, data analysis and visualization.
 
 ----
-
-Education
----------
-
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
-
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
-
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
-
-    *Minor: Awesomeology*
 
 Experience
 ----------
 
-**Your Most Recent Work Experience:**
+Since 2013
+:   *Data Scientist for [Airconomy](https://www.airconomy.com/)*
+    (Frankfurt am Main, Germany).
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+    Data mining on various sources to forecast passenger demands over
+    airline networks.
 
-* First item
+2009-2012
+:   *PhD in Operations Research with
+    [Amadeus](http://www.amadeus.com/amadeus/amadeus.html)* (Sophia
+    Antipolis, France).
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+    Researched how to assign aircraft on an airline network in the most
+    efficient way. I authored several projects, including a C++ solver,
+    a Python suite of 20+ command line tools, and Hadoop data mining
+    scripts. I also worked as a teaching assistant at the university,
+    further improving my communication and public speaking skills.
+
+February, 2010 — March, 2017
+:   *College Instructor at [Velez College](hhttp://www.velezcollege.com/)*
+    (Cebu City, Philippines).
+
+    I acted as a college instructor and in here I started my journey into the field of coding.
+
+    * *Physics Instructor* - Most of my time in the college I was doing lecture and laboratory instruction in Physics
+    * *Mathematics Instructor* - Half of my time in the College I had been a lecturer in Algebra and Statistics.
+    * *IT Instructor* - I was in charge of the college's Computer Laboratory and I am one of the instructor's who guide students doing their laboratory works especially using python for their statistics projects. 
+    
+June, 2005 — October, 2010
+:   *Math and Physics Professor at [University of San Jose-Recoletos](https://usjr.edu.ph/)* (Cebu City, Philippines).
+
+    This would be the start of my career in the academe, where I work as a professor on Physics and Algebra .  
+
+
+    * *Physics Professor* - More than half of my time in the university I was doing lecture and laboratory instruction in Physics
+    * *Algebra Professor* - For almost 5 years in the university I had my time lecturing college algebra. 
+
 
 **That Other Job You Had**
 
@@ -81,6 +93,13 @@ Programming Languages
 
 [ref]: https://github.com/githubuser/superlongprojectname
 
+Education
+---------
+
+2000-2004
+:   **BSc, Physics**; Mindanao State University - Iligan Institute of Technology (Iligan City, Philippines)
+
+
 Extra Section, Call it Whatever You Want
 ----------------------------------------
 
@@ -96,5 +115,7 @@ Extra Section, Call it Whatever You Want
 
 ----
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+> <sir.markds@gmail.com> • +63 (9)20 981 0209 • 39 years old\
+> 96-C2 Climaco Street, Pahina Central - Cebu City, Philippines\
+> [![Linkedin](https://i.stack.imgur.com/gVE0j.png) mark-russel-miranda-43b08b34](https://www.linkedin.com/in/mark-russel-miranda-43b08b34/)\
+> [![GitHub](https://i.stack.imgur.com/tskMh.png) DaddyAwesome](https://github.com/daddyawesome)
