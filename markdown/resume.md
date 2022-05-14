@@ -12,23 +12,28 @@ Mark Russel Miranda
 Experience
 ----------
 
-Since 2013
-:   *Data Scientist for [Airconomy](https://www.airconomy.com/)*
-    (Frankfurt am Main, Germany).
+October, 2019 - November, 2021
+:   *Reports Anlyst / BI Developer [Qualfon](https://www.qualfon.com/)*
+    (Cebu City, Philippines).
 
-    Data mining on various sources to forecast passenger demands over
-    airline networks.
+    Reporting globally on all company sites using Data Visualization Tool like Power BI and doing Exploratory Data Analysis using Jupyter Notebooks.
+    
+    * Design and develop metrics, reports, and analysis to drive key business decisions
+    * Use raw data and management needs to create effective data extraction, and analysis
+    * Build and maintain reports through SQL Server, PowerBI, and Excel Templates
+    * Provide the company with analysis of data while highlighting trends and forecasting to ensure the company can make educated business decisions. 
+    * Calculate and distribute data for weekly and quarterly business reviews to the company and clients.
 
-2009-2012
-:   *PhD in Operations Research with
-    [Amadeus](http://www.amadeus.com/amadeus/amadeus.html)* (Sophia
-    Antipolis, France).
+October, 2017 - October, 2019
+:   *Data Analyst / Real Time Analyst with
+    [Accenture](https://www.accenture.com/ph-en)* (Cebu City, Philippines).
 
-    Researched how to assign aircraft on an airline network in the most
-    efficient way. I authored several projects, including a C++ solver,
-    a Python suite of 20+ command line tools, and Hadoop data mining
-    scripts. I also worked as a teaching assistant at the university,
-    further improving my communication and public speaking skills.
+    Analyzed data, out of production from the teams supported and gives report by making use of Excel Power Pivot, data visualization and VBA.
+
+    * Responsible in real-time adherence and queue management for business operations and monitoring and managing site activities to support client/account service level agreements.
+    * Ensure that scheduled team logins/ logout on time, and managing, controlling, and reporting non-adherence to schedules.
+    * Managing required real-time reporting requirement deliverables via service menus and ad-hoc requirements.
+    * The point of contact for processing and identifying schedule exceptions (e.g. trainings, coaching) including minimum length, approval, data entry responsibilities, and tracking.
 
 February, 2010 — March, 2017
 :   *College Instructor at [Velez College](hhttp://www.velezcollege.com/)*
