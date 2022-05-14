@@ -13,7 +13,7 @@ Experience
 ----------
 
 October, 2019 - November, 2021
-:   *Reports Anlyst / BI Developer [Qualfon](https://www.qualfon.com/)*
+:   *Reports Analyst / BI Developer [Qualfon](https://www.qualfon.com/)*
     (Cebu City, Philippines).
 
     Reporting globally on all company sites using Data Visualization Tool like Power BI and doing Exploratory Data Analysis using Jupyter Notebooks.
