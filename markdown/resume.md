@@ -55,48 +55,30 @@ June, 2005 — October, 2010
     * *Algebra Professor* - For almost 5 years in the university I had my time lecturing college algebra. 
 
 
-**That Other Job You Had**
+**Finance Data Analyst at [Legalmatch Philippines](https://legalmatch.ph/)**
 
-Also with a short description.
+Automating Data Analysis on Finance with Python  
 
 Technical Experience
 --------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
-
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
-
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
-
+BI Tools
+:   **PowerBI:** For two years I had been designing and developing metrics, reports, and analysis to drive key business decisions with more than 5 clients.\
+  
+:   **Google Data Studio:** For two years I had been making and supporting a couple of clients' dashboards.\
+   
+:   **Tableau:** Since 2019 I had been training in Tableau and I was only able to use it for a single client.\
+   
 Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+:   **Python:** Study this language since 2010 and been using this language starting 2017 in automating and analyzing data.
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+:   **Go:**  Fundamental knowledge in golang since Feb 2021 but have not yet use it in practice and been trying to make [projects](https://github.com/daddyawesome/go-practice) using this language.   
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+SQL
+:  More than 4 years experience with MS SQL and PostgreSQL\
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
+Excel
+: More than 10 years experience with MS Excel
 
 Education
 ---------
@@ -105,18 +87,14 @@ Education
 :   **BSc, Physics**; Mindanao State University - Iligan Institute of Technology (Iligan City, Philippines)
 
 
-Extra Section, Call it Whatever You Want
-----------------------------------------
+Recognition
+---------
 
-* Human Languages:
+2019 -2020
+: My Certificates
+    Earned certifications from Coursera Specializations and LinkedIn Learning Path. View my Certificates at [this link](https://daddyawesome.github.io/writings/certificates.html).
+    *https://daddyawesome.github.io/writings/certificates.html*
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
-
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
 
 ----
 

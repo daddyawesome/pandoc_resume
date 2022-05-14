@@ -1,0 +1,252 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\defineitemgroup[enumerate]
+\setupenumerate[each][fit][itemalign=left,distance=.5em,style={\feature[+][default:tnum]}]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+\setupxtable[frame=off,option={stretch,width}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[title={Mark Russel Miranda},reference={mark-russel-miranda}]
+
+\thinrule
+
+\startblockquote
+Specialties: SQL, Python, PowerBI, Tableau\crlf
+Reports Analyst / Junior Data Scientist\crlf
+Love exploring machine learning, data analysis and visualization.
+\stopblockquote
+
+\thinrule
+
+\subsection[title={Experience},reference={experience}]
+
+\startdescription{October, 2019 - November, 2021}
+  {\em Reports Analyst / BI Developer
+  \useURL[url1][https://www.qualfon.com/][][Qualfon]\from[url1]} (Cebu
+  City, Philippines).
+
+  Reporting globally on all company sites using Data Visualization Tool
+  like Power BI and doing Exploratory Data Analysis using Jupyter
+  Notebooks.
+
+  \startitemize[packed]
+  \item
+    Design and develop metrics, reports, and analysis to drive key
+    business decisions
+  \item
+    Use raw data and management needs to create effective data
+    extraction, and analysis
+  \item
+    Build and maintain reports through SQL Server, PowerBI, and Excel
+    Templates
+  \item
+    Provide the company with analysis of data while highlighting trends
+    and forecasting to ensure the company can make educated business
+    decisions.
+  \item
+    Calculate and distribute data for weekly and quarterly business
+    reviews to the company and clients.
+  \stopitemize
+\stopdescription
+
+\startdescription{October, 2017 - October, 2019}
+  {\em Data Analyst / Real Time Analyst with
+  \useURL[url2][https://www.accenture.com/ph-en][][Accenture]\from[url2]}
+  (Cebu City, Philippines).
+
+  Analyzed data, out of production from the teams supported and gives
+  report by making use of Excel Power Pivot, data visualization and VBA.
+
+  \startitemize[packed]
+  \item
+    Responsible in real-time adherence and queue management for business
+    operations and monitoring and managing site activities to support
+    client/account service level agreements.
+  \item
+    Ensure that scheduled team logins/ logout on time, and managing,
+    controlling, and reporting non-adherence to schedules.
+  \item
+    Managing required real-time reporting requirement deliverables via
+    service menus and ad-hoc requirements.
+  \item
+    The point of contact for processing and identifying schedule
+    exceptions (e.g.~trainings, coaching) including minimum length,
+    approval, data entry responsibilities, and tracking.
+  \stopitemize
+\stopdescription
+
+\startdescription{February, 2010 --- March, 2017}
+  {\em College Instructor at
+  \useURL[url3][hhttp://www.velezcollege.com/][][Velez
+  College]\from[url3]} (Cebu City, Philippines).
+
+  I acted as a college instructor and in here I started my journey into
+  the field of coding.
+
+  \startitemize[packed]
+  \item
+    {\em Physics Instructor} - Most of my time in the college I was
+    doing lecture and laboratory instruction in Physics
+  \item
+    {\em Mathematics Instructor} - Half of my time in the College I had
+    been a lecturer in Algebra and Statistics.
+  \item
+    {\em IT Instructor} - I was in charge of the college's Computer
+    Laboratory and I am one of the instructor's who guide students doing
+    their laboratory works especially using python for their statistics
+    projects.
+  \stopitemize
+\stopdescription
+
+\startdescription{June, 2005 --- October, 2010}
+  {\em Math and Physics Professor at
+  \useURL[url4][https://usjr.edu.ph/][][University of San
+  Jose-Recoletos]\from[url4]} (Cebu City, Philippines).
+
+  This would be the start of my career in the academe, where I work as a
+  professor on Physics and Algebra .
+
+  \startitemize[packed]
+  \item
+    {\em Physics Professor} - More than half of my time in the
+    university I was doing lecture and laboratory instruction in Physics
+  \item
+    {\em Algebra Professor} - For almost 5 years in the university I had
+    my time lecturing college algebra.
+  \stopitemize
+\stopdescription
+
+{\bf Finance Data Analyst at
+\useURL[url5][https://legalmatch.ph/][][Legalmatch
+Philippines]\from[url5]}
+
+Automating Data Analysis on Finance with Python
+
+\subsection[title={Technical
+Experience},reference={technical-experience}]
+
+\startdescription{BI Tools}
+  {\bf PowerBI:} For two years I had been designing and developing
+  metrics, reports, and analysis to drive key business decisions with
+  more than 5 clients.\crlf
+
+  {\bf Google Data Studio:} For two years I had been making and
+  supporting a couple of clients' dashboards.\crlf
+
+  {\bf Tableau:} Since 2019 I had been training in Tableau and I was
+  only able to use it for a single client.\crlf
+\stopdescription
+
+\startdescription{Programming Languages}
+  {\bf Python:} Study this language since 2010 and been using this
+  language starting 2017 in automating and analyzing data.
+
+  {\bf Go:} Fundamental knowledge in golang since Feb 2021 but have not
+  yet use it in practice and been trying to make
+  \useURL[url6][https://github.com/daddyawesome/go-practice][][projects]\from[url6]
+  using this language.
+\stopdescription
+
+\startdescription{SQL}
+  More than 4 years experience with MS SQL and PostgreSQL\crlf
+\stopdescription
+
+\startdescription{Excel}
+  More than 10 years experience with MS Excel
+\stopdescription
+
+\subsection[title={Education},reference={education}]
+
+\startdescription{2000-2004}
+  {\bf BSc, Physics}; Mindanao State University - Iligan Institute of
+  Technology (Iligan City, Philippines)
+\stopdescription
+
+\subsection[title={Recognition},reference={recognition}]
+
+\startdescription{2019 -2020}
+  My Certificates Earned certifications from Coursera Specializations
+  and LinkedIn Learning Path. View my Certificates at
+  \useURL[url7][https://daddyawesome.github.io/writings/certificates.html][][this
+  link]\from[url7].
+  {\em https://daddyawesome.github.io/writings/certificates.html}
+\stopdescription
+
+\thinrule
+
+\startblockquote
+\useURL[url8][mailto:sir.markds@gmail.com][][sir.markds@gmail.com]\from[url8]
+• +63 (9)20 981 0209 • 39 years old\crlf
+96-C2 Climaco Street, Pahina Central - Cebu City, Philippines\crlf
+\useURL[url9][https://www.linkedin.com/in/mark-russel-miranda-43b08b34/][][{\externalfigure[https://i.stack.imgur.com/gVE0j.png]}
+mark-russel-miranda-43b08b34]\from[url9]\crlf
+\useURL[url10][https://github.com/daddyawesome][][{\externalfigure[https://i.stack.imgur.com/tskMh.png]}
+DaddyAwesome]\from[url10]
+\stopblockquote
+
+\stoptext
